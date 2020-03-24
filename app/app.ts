@@ -20,6 +20,7 @@ const productNames: string[] = ["POO","UNAH","Goku","super","Delicioso","Cosita"
     CreateProduct({_id:prov},name,precioCosto,precioVenta,cantidad);
 }*/
 
+//Esta linea actualiza productos
 UpdateProduct({precio_venta:{$gt:500}},{$set:{ precio_compra:0 }});  
 
 
