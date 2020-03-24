@@ -47,6 +47,10 @@ export const DeleteProveedor = async function(filter: any){
 
 }
 
+export const updateProveedor = async function(filter:any, update:any){
+
+}
+
 export function getProveedor(filter: any):Promise<any>{
     return new Promise<any>( resolve => {
         Proveedor.findOne(filter, (err:any,data:any) => {
